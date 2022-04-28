@@ -12,6 +12,8 @@ export default function Home() {
 
       <main>
         <h1>My Portfolio / Blog</h1>
+
+        <p>I'm a web developer</p>
       </main>
     </div>
   );
