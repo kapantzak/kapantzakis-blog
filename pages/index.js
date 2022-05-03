@@ -21,7 +21,7 @@ export default function Home({ isConnected }) {
   );
 }
 
-export async function getStatisProps(context) {
+export async function getStaticProps(context) {
   try {
     await clientPromise;
     // `await clientPromise` will use the default database passed in the MONGODB_URI
