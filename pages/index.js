@@ -1,19 +1,15 @@
-import Head from "next/head";
+import Link from "next/link";
 
-export default function Home() {
+const Home = () => {
   return (
-    <div>
-      <Head>
-        <title>John Kapantzakis | Home</title>
-        <meta name="description" content="John Kapantzxakis portfolio" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <>
+      <h1>John Kapantzakis</h1>
 
-      <main>
-        <h1>My Portfolio / Blog</h1>
-
-        <p>I&apos;m a web developer</p>
-      </main>
-    </div>
+      <Link href="/posts">
+        <a>Blog</a>
+      </Link>
+    </>
   );
-}
+};
+
+export default Home;
